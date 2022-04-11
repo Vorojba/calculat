@@ -74,7 +74,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(264, 27);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button1
             // 
@@ -119,7 +118,6 @@
             this.textHistory.Name = "textHistory";
             this.textHistory.Size = new System.Drawing.Size(0, 36);
             this.textHistory.TabIndex = 0;
-            this.textHistory.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel3
             // 
